@@ -14,7 +14,6 @@ def join_nested_strings(src)
       end
     end
     row_index+=1 
-    string_story.concat
   end
   string_story.join
 end
