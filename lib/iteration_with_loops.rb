@@ -11,6 +11,7 @@ def join_nested_strings(src)
       string_story << src[row_index][element_index]
       
       element_index+=1 
+      end
     end
     row_index+=1 
   end
