@@ -8,14 +8,13 @@ def join_nested_strings(src)
      if src[row_index][element_index].is_a? Integer
        element_index+=1
      else
-      
-      string_story = src[row_index][element_index]
+      string_story << src[row_index][element_index]
       final_story << string_story
       element_index+=1 
       end
     end
     row_index+=1 
   end
-  final_story.join
+  final_story
 end
 
