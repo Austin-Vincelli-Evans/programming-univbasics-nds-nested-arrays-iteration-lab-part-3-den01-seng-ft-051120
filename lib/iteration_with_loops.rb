@@ -8,6 +8,7 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
       class_fun = src[row_index][element_index].class
       if class_fun = "string"
+      binding.pry
       string_story << src[row_index][element_index]
       end
       element_index+=1 
