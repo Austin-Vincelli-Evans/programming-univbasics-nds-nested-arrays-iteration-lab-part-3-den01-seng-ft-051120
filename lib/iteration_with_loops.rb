@@ -9,7 +9,7 @@ def join_nested_strings(src)
      
      
       class_fun = src[row_index][element_index].class
-      if class_fun <= 500
+      if class_fun = string
       string_story << src[row_index][element_index]
       
       
