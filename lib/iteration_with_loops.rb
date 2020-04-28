@@ -9,13 +9,11 @@ def join_nested_strings(src)
      
      
       class_fun = src[row_index][element_index].class
-      if class_fun = 4 || -1 || 30 ||
+      if class_fun = 4 || -1 || 30 || 101 || 233
+        element_index += 1
+      else
       string_story << src[row_index][element_index]
-      
-      
-      
-      end
-      element_index+=1 
+      element_index += 1
     end
     row_index+=1 
   end
