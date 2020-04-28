@@ -8,7 +8,7 @@ def join_nested_strings(src)
        element_index+=1
      else
       
-      string_story << src[row_index][element_index],
+      string_story << src[row_index][element_index]
       
       element_index+=1 
       end
