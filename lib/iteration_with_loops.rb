@@ -9,7 +9,7 @@ def join_nested_strings(src)
      
      
       class_fun = src[row_index][element_index].class
-      if class_fun = string
+      if class_fun = ''
       string_story << src[row_index][element_index]
       
       
