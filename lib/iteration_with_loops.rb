@@ -5,7 +5,7 @@ def join_nested_strings(src)
     element_index = 0 
     add_story=[]
     while element_index < src[row_index].count do
-      if src[row_index][element_index]respond_to
+      if src[row_index][element_index]respond_to?()
       add_story = src[row_index][element_index]
       string_story << add_story
       end
